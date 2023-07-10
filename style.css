@@ -180,7 +180,9 @@ body {
 }
 
 .insta-content {
+    margin: auto;
     width: 500px;
+    text-align: center;
 }
 
 .insta-image-div img {
@@ -190,3 +192,20 @@ body {
 
 
 /* -- --------------Instagram Section starts----------------------  */
+
+/* --------------Latest Deals Section starts---------------------- */
+.deals-section{
+    width: 100%;
+    height: 400px;
+    background-image: url("Flower Asset\Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+/* --------------Latest Deals Section ends------------------------ */
