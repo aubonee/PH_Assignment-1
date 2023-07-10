@@ -14,6 +14,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
+    box-sizing: border-box;
 }
 
 .content-container h1 {
@@ -87,7 +88,7 @@ body {
 }
 
 .ff-content p {
-    width: 594px;
+    width: 500px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -98,7 +99,7 @@ body {
 }
 
 .featured-flower-imgs {
-    width: 1300px;
+    width: 1280px;
     height: 750px;
     margin: auto;
     display: flex;
@@ -154,6 +155,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10px 50px;
+    box-sizing: border-box;
     align-items: center;
 }
 
@@ -166,7 +168,7 @@ body {
 /* -------------------------------------sale section ends----------------------------------------- */
 
 .insta-section {
-    width: 1300px;
+    width: 1280px;
     margin: auto;
     text-align: center;
 }
