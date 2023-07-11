@@ -28,7 +28,7 @@ nav {
 }
 
 .logo h3 {
-    color: #181818;
+    color: #E55473;
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
@@ -37,7 +37,7 @@ nav {
 }
 
 .logo span {
-    color: #E55473;
+    color: #000000;
 }
 
 .nav-item ul {
@@ -58,6 +58,26 @@ nav {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+.subscribe-button  {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 10px 30px;
+    border: none;
+     margin-left:20px ;
+}
+.subscribe-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 .nav-item li a:hover{
@@ -107,6 +127,7 @@ nav {
     background-color: #E55473;
     padding: 20px 43px;
     border: none;
+    
 }
 
 .cover-img-container {
@@ -164,7 +185,7 @@ nav {
 }
 
 .featured-flower-imgs {
-    width: 1250px;
+    width: 1300px;
     height: 550px;
     margin: 0;
     display: flex;
@@ -174,7 +195,7 @@ nav {
 }
 
 .f-flower-subpart {
-    width: 464px;
+    width: 434px;
     height: 538px;
     display: flex;
     flex-direction: column;
@@ -189,7 +210,7 @@ nav {
     padding-bottom: 0px;
     display: flex;
     justify-content: center;
-    width:380px;
+    width:390px;
     height: 420px;
     padding-top: 100px;
     box-sizing: border-box;
@@ -197,7 +218,7 @@ nav {
 }
 
 .ff-img-section img {
-    width: 200px;
+    width: 260px;
     height: 320px;
     /* margin-bottom: -1000px;
     padding-bottom: -50px; */
@@ -232,7 +253,7 @@ text-decoration-line: underline;
 
 .service-section{
     
-    width: 80%;
+    width: 1300px;
     margin: auto;
     margin-bottom: 128px;
     height: 320px;
@@ -291,7 +312,7 @@ line-height: 35px;
 /* -- -------------------------------Instagram Section starts-------------------------------------------------  */
 
 .insta-section {
-    width: 1280px;
+    width: 1300px;
     margin: 20px auto 100px;
     text-align: center;
 }
@@ -309,8 +330,8 @@ line-height: 35px;
 }
 
 .insta-image-div img {
-    width: 280px;
-    height: 320px;
+    width: 300px;
+    height: 330px;
 }
 /* -- -------------------------------Instagram Section ends------------------------------------  */
 /* -------------------------Latest Deals Section starts------------------------------------ */
@@ -322,8 +343,25 @@ line-height: 35px;
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+.deals-section h1{
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.deals-section p{
+    margin-top: -15px;
+
+}
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .email-box input[type=email]
 {
@@ -346,6 +384,92 @@ line-height: 35px;
 
 
 /* --------------Latest Deals Section ends------------------------ */
+
+/* Customer Reviews starts -------------------------------*/
+.customer-review{
+    margin-top: 100px;
+}
+.review-desc h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+}
+.review-desc p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.client-review-section{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    background-color:#f2dadf; 
+    color: #E55473;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:420px;
+    height: 450px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.r-img-section img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white border;
+    margin-top: -100px;
+}
+.review-content {
+    
+width:390px;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.review-content h1{
+    
+    width:390px;
+    color: rgba(39, 39, 39, 0.90);
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    
+    }
+    .review:hover{
+        background-color:#E55473;
+        color: #FFFFFF;
+    }
+    .review:hover h1{
+        
+        color: #FFFFFF;
+    }
+    .review:hover p{
+        
+        color: #FFFFFF;
+    }
 
 /* --------------Footer Section starts------------------------ */
 
