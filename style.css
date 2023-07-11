@@ -169,7 +169,7 @@ body {
 
 .insta-section {
     width: 1280px;
-    margin: auto;
+    margin: 20px auto 100px;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ body {
 /* --------------Latest Deals Section starts---------------------- */
 .deals-section{
     width: 100%;
-    height: 400px;
+    height: 449px;
     background-image: url(Flower_Asset/Rectangle_9.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,15 +213,14 @@ body {
     margin-right: 15px;
     border-radius: 8px;
     background-color: #FFF;
-border: none;
-box-sizing: border-box;
-color: rgba(39, 39, 39, 0.60);
-
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    border: none;
+    box-sizing: border-box;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     
 }
 /* .email-box input[type=email]
@@ -233,3 +232,52 @@ line-height: normal;
 } */
 
 /* --------------Latest Deals Section ends------------------------ */
+
+/* --------------Footer Section starts------------------------ */
+
+.footer-section{
+    margin: 0px;
+    margin-top: 120px;
+    width:100%;
+    height: 449px;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E55473;
+}
+.footer-h1 h1{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer-h1 span{
+    color: #FFFFFF;
+
+}
+.footer-p1{
+    width: 625px;
+}
+.footer-p1 p{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.footer-p2{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* --------------Footer Section ends------------------------ */
