@@ -197,15 +197,39 @@ body {
 .deals-section{
     width: 100%;
     height: 400px;
-    background-image: url("Flower Asset\Rectangle 9.png");
+    background-image: url(Flower_Asset/Rectangle_9.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
+.email-box input[type=email]
+{
+    width: 800px;
+    height: 64px;
+    padding: 15px 10px;
+    margin-right: 15px;
+    border-radius: 8px;
+    background-color: #FFF;
+border: none;
+box-sizing: border-box;
+color: rgba(39, 39, 39, 0.60);
 
-
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+}
+/* .email-box input[type=email]
+{
+    width: 100%;
+    padding: 12px 25px;
+    margin: 10px;
+    
+} */
 
 /* --------------Latest Deals Section ends------------------------ */
