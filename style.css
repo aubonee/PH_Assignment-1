@@ -233,6 +233,7 @@ nav {
 #ff-img-2{
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
+
 }
 #ff-img-3{
     border-radius: 300px 300px 0px 0px;
@@ -296,7 +297,7 @@ line-height: 35px;
     height: 620px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px 50px;
     box-sizing: border-box;
     align-items: center;
@@ -305,6 +306,11 @@ line-height: 35px;
 .sale-section-content {
     text-align: center;
     width: 600px;
+    margin-right: 40px;
+}
+.sale-section-image{
+    margin-left: 40px;
+
 }
 .sale-section-content p{
     font-size: 18px;
@@ -339,8 +345,9 @@ line-height: 35px;
 /* -- -------------------------------Instagram Section ends------------------------------------  */
 /* -------------------------Latest Deals Section starts------------------------------------ */
 .deals-section{
-    width: 100%;
-    height: 449px;
+    margin: 0px auto;
+    width: 1300px;
+    height: 400px;
     background-image: url(Flower_Asset/Rectangle_9.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,7 +375,7 @@ line-height: 35px;
 }
 .email-box input[type=email]
 {
-    width: 800px;
+    width: 700px;
     height: 64px;
     padding: 15px 10px;
     margin-right: 15px;
