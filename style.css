@@ -304,7 +304,10 @@ line-height: 35px;
 
 .sale-section-content {
     text-align: center;
-    width: 594px;
+    width: 600px;
+}
+.sale-section-content p{
+    font-size: 18px;
 }
 
 
